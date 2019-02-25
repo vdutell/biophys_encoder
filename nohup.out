@@ -1,0 +1,961 @@
+[I 18:14:57.481 NotebookApp] The port 8898 is already in use, trying another port.
+[I 18:14:57.481 NotebookApp] The port 8899 is already in use, trying another port.
+[I 18:14:57.501 NotebookApp] JupyterLab extension loaded from /home/vasha/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 18:14:57.501 NotebookApp] JupyterLab application directory is /home/vasha/anaconda3/share/jupyter/lab
+[I 18:14:57.502 NotebookApp] Serving notebooks from local directory: /home/vasha/taec_torch
+[I 18:14:57.502 NotebookApp] The Jupyter Notebook is running at:
+[I 18:14:57.502 NotebookApp] https://(telegenic or 127.0.0.1):8900/
+[I 18:14:57.502 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 20:49:09.092 LabApp] JupyterLab extension loaded from /home/vasha/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 20:49:09.094 LabApp] JupyterLab application directory is /home/vasha/anaconda3/share/jupyter/lab
+[W 20:49:09.096 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 20:49:09.098 LabApp] JupyterLab extension loaded from /home/vasha/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 20:49:09.098 LabApp] JupyterLab application directory is /home/vasha/anaconda3/share/jupyter/lab
+[I 20:49:09.098 LabApp] Serving notebooks from local directory: /home/vasha/taec_torch
+[I 20:49:09.098 LabApp] The Jupyter Notebook is running at:
+[I 20:49:09.098 LabApp] https://(telegenic or 127.0.0.1):8898/
+[I 20:49:09.098 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 20:49:13.144 LabApp] Clearing invalid/expired login cookie username-128-32-158-212-8898
+[W 20:49:13.145 LabApp] Couldn't authenticate WebSocket connection
+[W 20:49:13.145 LabApp] Clearing invalid/expired login cookie username-128-32-158-212-8898
+[W 20:49:13.146 LabApp] Clearing invalid/expired login cookie username-128-32-158-212-8898
+[W 20:49:13.163 LabApp] 403 GET /api/kernels/f21205fa-3252-4ffa-9423-81884b5140c5/channels?session_id=f49c90d6-2255-4af3-9cd1-b629a0673520 (10.142.26.13) 20.95ms referer=None
+[W 20:49:25.182 LabApp] Clearing invalid/expired login cookie username-128-32-158-212-8898
+[W 20:49:25.182 LabApp] Couldn't authenticate WebSocket connection
+[W 20:49:25.182 LabApp] Clearing invalid/expired login cookie username-128-32-158-212-8898
+[W 20:49:25.183 LabApp] Clearing invalid/expired login cookie username-128-32-158-212-8898
+[W 20:49:25.184 LabApp] 403 GET /api/kernels/afbd9126-928b-401e-937b-865b10678f8f/channels?session_id=0cc8be6f-b8e0-49fe-81e1-36ad7bec67a4 (10.142.26.13) 4.01ms referer=None
+[W 20:49:40.849 LabApp] Clearing invalid/expired login cookie username-128-32-158-212-8898
+[W 20:49:40.850 LabApp] Forbidden
+[W 20:49:40.850 LabApp] 403 GET /api/contents/taec_torch/taec_torch.ipynb?content=0&1546634980800 (10.142.26.13) 1.62ms referer=https://128.32.158.212:8898/lab
+[W 20:49:41.085 LabApp] Forbidden
+[W 20:49:41.085 LabApp] 403 GET /api/contents/taec_torch?content=1&1546634981072 (10.142.26.13) 1.31ms referer=https://128.32.158.212:8898/lab
+[I 20:49:45.206 LabApp] 302 GET /lab (10.142.26.13) 1.03ms
+[I 20:49:48.129 LabApp] 302 POST /login?next=%2Flab (10.142.26.13) 1.49ms
+[W 20:49:49.791 LabApp] Could not determine jupyterlab build status without nodejs
+[W 20:49:50.074 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1546634990062 (10.142.26.13): No such file or directory: dynamic_natural_motion/utils
+[W 20:49:50.074 LabApp] No such file or directory: dynamic_natural_motion/utils
+[W 20:49:50.074 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1546634990062 (10.142.26.13) 0.78ms referer=https://128.32.158.212:8898/lab
+[W 20:49:50.075 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1546634990063 (10.142.26.13): No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 20:49:50.075 LabApp] No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 20:49:50.075 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1546634990063 (10.142.26.13) 0.76ms referer=https://128.32.158.212:8898/lab
+[W 20:49:50.076 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1546634990064 (10.142.26.13): No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 20:49:50.076 LabApp] No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 20:49:50.077 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1546634990064 (10.142.26.13) 0.74ms referer=https://128.32.158.212:8898/lab
+[W 20:49:50.078 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/load_data.py?content=0&1546634990065 (10.142.26.13): No such file or directory: dynamic_natural_motion/utils/load_data.py
+[W 20:49:50.078 LabApp] No such file or directory: dynamic_natural_motion/utils/load_data.py
+[W 20:49:50.079 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/load_data.py?content=0&1546634990065 (10.142.26.13) 0.76ms referer=https://128.32.158.212:8898/lab
+[W 20:49:50.080 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1546634990067 (10.142.26.13): No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 20:49:50.080 LabApp] No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 20:49:50.080 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1546634990067 (10.142.26.13) 0.74ms referer=https://128.32.158.212:8898/lab
+[I 20:49:56.354 LabApp] Kernel started: e591dd46-7476-4165-85c6-7cda047a2b96
+[I 20:49:56.712 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 20:49:56.765 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 20:49:58.365 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 20:49:58.576 LabApp] Kernel restarted: e591dd46-7476-4165-85c6-7cda047a2b96
+[I 20:49:59.059 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 20:49:59.060 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 20:49:59.060 LabApp] Replaying 5 buffered messages
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch-nightly_1545902709955/work/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch-nightly_1545902709955/work/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 20:51:57.096 LabApp] Saving file at /taec_torch.ipynb
+[I 20:53:58.037 LabApp] Saving file at /taec_torch.ipynb
+[I 20:55:59.081 LabApp] Saving file at /taec_torch.ipynb
+[I 20:58:00.048 LabApp] Saving file at /taec_torch.ipynb
+[I 21:00:01.074 LabApp] Saving file at /taec_torch.ipynb
+[I 21:02:02.025 LabApp] Saving file at /taec_torch.ipynb
+[I 21:04:02.112 LabApp] Saving file at /taec_torch.ipynb
+[I 21:06:03.101 LabApp] Saving file at /taec_torch.ipynb
+[I 21:08:03.940 LabApp] Saving file at /taec_torch.ipynb
+[I 21:10:05.013 LabApp] Saving file at /taec_torch.ipynb
+[I 21:12:06.128 LabApp] Saving file at /taec_torch.ipynb
+[I 21:14:07.099 LabApp] Saving file at /taec_torch.ipynb
+[I 21:16:08.076 LabApp] Saving file at /taec_torch.ipynb
+[I 21:18:08.297 LabApp] Saving file at /taec_torch.ipynb
+[I 21:20:08.968 LabApp] Saving file at /taec_torch.ipynb
+[I 21:22:09.235 LabApp] Saving file at /taec_torch.ipynb
+[I 21:24:10.062 LabApp] Saving file at /taec_torch.ipynb
+[I 21:26:11.158 LabApp] Saving file at /taec_torch.ipynb
+[I 21:27:19.447 LabApp] Kernel interrupted: e591dd46-7476-4165-85c6-7cda047a2b96
+[I 21:27:25.377 LabApp] Saving file at /taec_torch.ipynb
+[I 21:27:28.313 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 21:27:30.327 LabApp] Kernel restarted: e591dd46-7476-4165-85c6-7cda047a2b96
+[I 21:27:30.808 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 21:27:30.809 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 21:27:30.809 LabApp] Replaying 3 buffered messages
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch-nightly_1545902709955/work/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch-nightly_1545902709955/work/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 21:29:26.083 LabApp] Saving file at /taec_torch.ipynb
+[I 21:31:27.161 LabApp] Saving file at /taec_torch.ipynb
+[I 21:33:28.104 LabApp] Saving file at /taec_torch.ipynb
+[I 21:35:28.852 LabApp] Saving file at /taec_torch.ipynb
+[I 21:37:29.168 LabApp] Saving file at /taec_torch.ipynb
+[I 21:39:30.092 LabApp] Saving file at /taec_torch.ipynb
+[I 21:41:31.190 LabApp] Saving file at /taec_torch.ipynb
+[I 21:43:32.188 LabApp] Saving file at /taec_torch.ipynb
+[I 21:45:33.059 LabApp] Saving file at /taec_torch.ipynb
+[I 21:47:34.068 LabApp] Saving file at /taec_torch.ipynb
+[I 21:49:35.148 LabApp] Saving file at /taec_torch.ipynb
+[W 21:52:30.811 LabApp] WebSocket ping timeout after 119893 ms.
+[I 21:52:35.816 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 21:58:25.217 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 21:58:25.218 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 21:58:25.218 LabApp] Replaying 8 buffered messages
+[W 21:59:55.220 LabApp] WebSocket ping timeout after 90002 ms.
+[E 21:59:58.929 LabApp] Uncaught exception in ZMQStream callback
+    Traceback (most recent call last):
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+        callback(*args, **kwargs)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+        return fn(*args, **kwargs)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 196, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 419, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/notebook/base/zmqhandlers.py", line 250, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/websocket.py", line 259, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 21:59:58.945 LabApp] Uncaught exception in zmqstream callback
+    Traceback (most recent call last):
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+        self._handle_recv()
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+        callback(*args, **kwargs)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+        return fn(*args, **kwargs)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 196, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 419, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/notebook/base/zmqhandlers.py", line 250, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/websocket.py", line 259, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(28, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(28, 1)>
+Traceback (most recent call last):
+  File "/home/vasha/anaconda3/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 196, in <lambda>
+    self.on_recv(lambda msg: callback(self, msg), copy=copy)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 419, in _on_zmq_reply
+    super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/notebook/base/zmqhandlers.py", line 250, in _on_zmq_reply
+    self.write_message(msg, binary=isinstance(msg, bytes))
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/websocket.py", line 259, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 22:00:00.222 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 22:11:25.449 LabApp] Saving file at /taec_torch.ipynb
+[I 22:11:55.150 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 22:11:55.151 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 22:11:55.151 LabApp] Replaying 15 buffered messages
+[W 22:13:25.154 LabApp] WebSocket ping timeout after 90002 ms.
+[E 22:13:26.272 LabApp] Uncaught exception in ZMQStream callback
+    Traceback (most recent call last):
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+        callback(*args, **kwargs)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+        return fn(*args, **kwargs)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 196, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 419, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/notebook/base/zmqhandlers.py", line 250, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/websocket.py", line 259, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 22:13:26.272 LabApp] Uncaught exception in zmqstream callback
+    Traceback (most recent call last):
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+        self._handle_recv()
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+        callback(*args, **kwargs)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+        return fn(*args, **kwargs)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 196, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 419, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/notebook/base/zmqhandlers.py", line 250, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/websocket.py", line 259, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(28, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(28, 1)>
+Traceback (most recent call last):
+  File "/home/vasha/anaconda3/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/zmq/eventloop/zmqstream.py", line 196, in <lambda>
+    self.on_recv(lambda msg: callback(self, msg), copy=copy)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 419, in _on_zmq_reply
+    super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/notebook/base/zmqhandlers.py", line 250, in _on_zmq_reply
+    self.write_message(msg, binary=isinstance(msg, bytes))
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/websocket.py", line 259, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 22:13:30.159 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 22:25:25.146 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 22:25:25.147 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 22:25:25.147 LabApp] Replaying 16 buffered messages
+[W 22:26:55.150 LabApp] WebSocket ping timeout after 90003 ms.
+[I 22:27:00.154 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 22:38:52.207 LabApp] Saving file at /taec_torch.ipynb
+[I 22:38:55.186 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 22:38:55.187 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 22:38:55.187 LabApp] Replaying 15 buffered messages
+[W 22:40:25.189 LabApp] WebSocket ping timeout after 90001 ms.
+[I 22:40:30.192 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 22:52:24.995 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 22:52:24.996 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 22:52:24.996 LabApp] Replaying 15 buffered messages
+[W 22:54:54.998 LabApp] WebSocket ping timeout after 119930 ms.
+[I 22:55:00.002 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 23:06:19.174 LabApp] Saving file at /taec_torch.ipynb
+[I 23:06:24.992 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 23:06:24.993 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 23:06:25.006 LabApp] Replaying 16 buffered messages
+[W 23:07:54.994 LabApp] WebSocket ping timeout after 90001 ms.
+[I 23:07:59.999 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 23:19:55.067 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 23:19:55.068 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 23:19:55.068 LabApp] Replaying 15 buffered messages
+[W 23:21:25.070 LabApp] WebSocket ping timeout after 90001 ms.
+[I 23:21:30.074 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 23:33:43.483 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 23:33:43.484 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 23:33:43.484 LabApp] Replaying 18 buffered messages
+[I 23:33:43.638 LabApp] Saving file at /taec_torch.ipynb
+[W 23:35:13.485 LabApp] WebSocket ping timeout after 90001 ms.
+[I 23:35:18.487 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 23:47:13.262 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 23:47:13.263 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 23:47:13.263 LabApp] Replaying 15 buffered messages
+[W 23:48:43.264 LabApp] WebSocket ping timeout after 90000 ms.
+[I 23:48:48.268 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 23:57:40.761 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 23:57:40.762 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 23:57:40.763 LabApp] Replaying 12 buffered messages
+[I 23:58:07.695 LabApp] Saving file at /taec_torch.ipynb
+[I 00:00:08.715 LabApp] Saving file at /taec_torch.ipynb
+[I 00:01:49.086 LabApp] Saving file at /taec_torch.ipynb
+[I 00:01:53.897 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 00:02:00.526 LabApp] Kernel restarted: e591dd46-7476-4165-85c6-7cda047a2b96
+[I 00:02:01.016 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 00:02:01.017 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 00:02:01.017 LabApp] Replaying 1 buffered messages
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch-nightly_1545902709955/work/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch-nightly_1545902709955/work/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 00:03:49.562 LabApp] Saving file at /taec_torch.ipynb
+[I 00:05:50.922 LabApp] Saving file at /taec_torch.ipynb
+[I 00:07:51.695 LabApp] Saving file at /taec_torch.ipynb
+[I 00:09:51.943 LabApp] Saving file at /taec_torch.ipynb
+[I 00:11:52.572 LabApp] Saving file at /taec_torch.ipynb
+[I 00:13:53.913 LabApp] Saving file at /taec_torch.ipynb
+[I 00:15:54.590 LabApp] Saving file at /taec_torch.ipynb
+[I 00:17:54.735 LabApp] Saving file at /taec_torch.ipynb
+[I 00:19:55.683 LabApp] Saving file at /taec_torch.ipynb
+[I 00:21:56.794 LabApp] Saving file at /taec_torch.ipynb
+[I 00:23:57.721 LabApp] Saving file at /taec_torch.ipynb
+[I 00:25:57.933 LabApp] Saving file at /taec_torch.ipynb
+[I 00:27:58.751 LabApp] Saving file at /taec_torch.ipynb
+[I 00:29:59.802 LabApp] Saving file at /taec_torch.ipynb
+[I 00:32:00.763 LabApp] Saving file at /taec_torch.ipynb
+[I 00:34:01.524 LabApp] Saving file at /taec_torch.ipynb
+[I 00:36:01.649 LabApp] Saving file at /taec_torch.ipynb
+[I 00:38:02.885 LabApp] Saving file at /taec_torch.ipynb
+[I 00:40:03.532 LabApp] Saving file at /taec_torch.ipynb
+[I 00:42:03.731 LabApp] Saving file at /taec_torch.ipynb
+[I 00:44:04.599 LabApp] Saving file at /taec_torch.ipynb
+[I 00:46:05.934 LabApp] Saving file at /taec_torch.ipynb
+[I 00:48:06.708 LabApp] Saving file at /taec_torch.ipynb
+[I 00:50:07.716 LabApp] Saving file at /taec_torch.ipynb
+[I 00:52:08.758 LabApp] Saving file at /taec_torch.ipynb
+[I 00:54:10.015 LabApp] Saving file at /taec_torch.ipynb
+[I 00:56:10.851 LabApp] Saving file at /taec_torch.ipynb
+[I 00:58:11.764 LabApp] Saving file at /taec_torch.ipynb
+[I 01:00:12.827 LabApp] Saving file at /taec_torch.ipynb
+[I 01:02:14.007 LabApp] Saving file at /taec_torch.ipynb
+[I 01:04:14.692 LabApp] Saving file at /taec_torch.ipynb
+[I 01:06:15.876 LabApp] Saving file at /taec_torch.ipynb
+[I 01:08:16.619 LabApp] Saving file at /taec_torch.ipynb
+[I 01:10:17.990 LabApp] Saving file at /taec_torch.ipynb
+[I 01:12:18.589 LabApp] Saving file at /taec_torch.ipynb
+[I 01:14:18.847 LabApp] Saving file at /taec_torch.ipynb
+[I 01:16:19.734 LabApp] Saving file at /taec_torch.ipynb
+[I 01:18:20.930 LabApp] Saving file at /taec_torch.ipynb
+[I 01:20:21.835 LabApp] Saving file at /taec_torch.ipynb
+[I 01:22:22.103 LabApp] Saving file at /taec_torch.ipynb
+[I 01:24:22.673 LabApp] Saving file at /taec_torch.ipynb
+[I 01:26:23.616 LabApp] Saving file at /taec_torch.ipynb
+[I 01:28:24.934 LabApp] Saving file at /taec_torch.ipynb
+[I 01:30:26.062 LabApp] Saving file at /taec_torch.ipynb
+[I 01:32:26.792 LabApp] Saving file at /taec_torch.ipynb
+[I 01:34:27.882 LabApp] Saving file at /taec_torch.ipynb
+[I 01:36:28.690 LabApp] Saving file at /taec_torch.ipynb
+[I 01:38:28.827 LabApp] Saving file at /taec_torch.ipynb
+[I 01:40:28.959 LabApp] Saving file at /taec_torch.ipynb
+[W 01:44:01.018 LabApp] WebSocket ping timeout after 119993 ms.
+[I 01:44:06.022 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 01:48:48.751 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 01:48:48.753 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 01:48:48.753 LabApp] Replaying 5 buffered messages
+[W 01:50:18.753 LabApp] WebSocket ping timeout after 90000 ms.
+[I 01:50:23.757 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 04:23:14.044 LabApp] Saving file at /taec_torch.ipynb
+[I 23:33:18.316 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 23:33:18.317 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 23:33:18.317 LabApp] Replaying 261 buffered messages
+[I 23:34:03.946 LabApp] Saving file at /taec_torch.ipynb
+[I 23:44:31.136 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 04:45:09.405 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 04:45:09.406 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[W 04:46:39.409 LabApp] WebSocket ping timeout after 90003 ms.
+[I 04:46:44.413 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 06:45:26.864 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 06:45:26.865 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 06:46:44.821 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 11:44:43.281 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 11:44:43.282 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 11:45:55.061 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 19:32:39.576 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 19:32:39.577 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 19:41:21.972 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[W 20:01:00.475 LabApp] SSL Error on 11 ('222.188.159.179', 9610): [SSL: HTTP_REQUEST] http request (_ssl.c:1051)
+[I 22:09:59.108 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 22:09:59.109 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 22:32:44.142 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 22:43:13.641 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 22:43:13.642 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 22:50:29.936 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 02:50:03.199 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 02:50:03.200 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 02:51:16.192 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 08:28:34.520 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 08:28:34.521 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 08:29:46.261 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 10:50:43.920 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 10:50:43.921 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 10:51:57.911 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 17:26:06.638 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 17:26:06.639 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 17:40:52.391 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 17:41:57.561 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 17:41:57.562 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 17:46:09.670 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:19:52.113 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 18:19:52.114 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:31:36.240 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:35:40.089 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 18:35:40.090 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:39:55.236 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:45:24.043 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 18:45:24.044 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:48:37.317 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:49:39.001 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 18:49:39.002 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:53:21.277 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:54:40.642 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 18:54:40.643 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:57:24.961 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:57:56.883 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 18:57:56.884 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 19:04:40.598 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 19:10:53.327 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 19:10:53.329 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 19:14:06.904 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 19:29:31.277 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 19:29:31.278 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 19:32:44.615 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 19:50:46.732 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 19:50:46.733 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 19:54:00.661 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 19:59:11.985 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 19:59:11.986 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 20:03:57.866 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 22:15:04.773 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 22:15:04.774 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 22:33:48.993 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 00:17:35.276 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 00:17:35.277 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 00:23:20.380 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 01:03:17.721 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 01:03:17.723 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 01:07:31.610 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 04:14:17.639 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 04:14:17.640 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 04:32:30.449 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 04:47:04.083 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 04:47:04.085 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 05:09:46.954 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 05:46:06.560 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 05:46:06.561 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 05:47:19.572 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 06:23:28.480 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 06:23:28.481 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 06:59:11.972 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 07:08:32.120 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 07:08:32.121 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 07:10:15.413 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 07:21:18.880 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 07:21:18.881 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 07:27:03.010 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 07:34:58.241 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 07:34:58.242 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 07:36:11.733 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 07:45:30.840 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 07:45:30.841 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 07:56:47.729 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 08:05:02.560 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 08:05:02.561 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 08:13:45.733 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 12:13:18.666 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 12:13:18.668 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 12:14:31.775 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:14:13.426 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 18:14:13.427 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:15:27.062 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 23:54:43.315 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 23:54:43.316 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 23:57:30.609 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 06:10:52.844 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 06:10:52.845 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 06:13:59.752 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 12:00:25.622 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 12:00:25.623 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 12:01:43.350 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[W 17:08:54.584 LabApp] SSL Error on 11 ('222.188.159.179', 13279): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1051)
+[W 17:08:54.616 LabApp] SSL Error on 14 ('222.188.159.179', 13280): [SSL: HTTP_REQUEST] http request (_ssl.c:1051)
+[W 17:47:24.240 LabApp] SSL Error on 11 ('222.188.159.179', 11482): [SSL: HTTP_REQUEST] http request (_ssl.c:1051)
+[W 17:47:24.244 LabApp] SSL Error on 14 ('222.188.159.179', 11483): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1051)
+[I 18:12:24.500 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 18:12:24.501 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:17:08.686 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:29:41.307 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 18:29:41.308 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[I 18:59:52.745 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:c2534e00-1e2e-40b1-a4e5-feff95a486c4
+[E 20:11:52.506 LabApp] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 709, in _handle_events
+        self._handle_read()
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 1581, in _handle_read
+        self._do_ssl_handshake()
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 1501, in _do_ssl_handshake
+        self.socket.do_handshake()
+      File "/home/vasha/anaconda3/lib/python3.7/ssl.py", line 1117, in do_handshake
+        self._sslobj.do_handshake()
+    OSError: [Errno 0] Error
+Exception in callback None()
+handle: <Handle cancelled>
+Traceback (most recent call last):
+  File "/home/vasha/anaconda3/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 709, in _handle_events
+    self._handle_read()
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 1581, in _handle_read
+    self._do_ssl_handshake()
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 1501, in _do_ssl_handshake
+    self.socket.do_handshake()
+  File "/home/vasha/anaconda3/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+[W 17:18:27.780 LabApp] Could not determine jupyterlab build status without nodejs
+[W 17:18:28.085 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1547572708075 (10.142.25.198): No such file or directory: dynamic_natural_motion/utils
+[W 17:18:28.085 LabApp] No such file or directory: dynamic_natural_motion/utils
+[W 17:18:28.085 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1547572708075 (10.142.25.198) 1.56ms referer=https://128.32.158.212:8898/lab
+[W 17:18:28.088 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1547572708077 (10.142.25.198): No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 17:18:28.088 LabApp] No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 17:18:28.088 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1547572708077 (10.142.25.198) 1.23ms referer=https://128.32.158.212:8898/lab
+[W 17:18:28.089 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1547572708077 (10.142.25.198): No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 17:18:28.089 LabApp] No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 17:18:28.090 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1547572708077 (10.142.25.198) 1.17ms referer=https://128.32.158.212:8898/lab
+[W 17:18:28.092 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/load_data.py?content=0&1547572708079 (10.142.25.198): No such file or directory: dynamic_natural_motion/utils/load_data.py
+[W 17:18:28.092 LabApp] No such file or directory: dynamic_natural_motion/utils/load_data.py
+[W 17:18:28.092 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/load_data.py?content=0&1547572708079 (10.142.25.198) 1.20ms referer=https://128.32.158.212:8898/lab
+[W 17:18:28.093 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1547572708081 (10.142.25.198): No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 17:18:28.094 LabApp] No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 17:18:28.094 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1547572708081 (10.142.25.198) 1.18ms referer=https://128.32.158.212:8898/lab
+[W 17:18:28.095 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/conversions.py?content=0&1547572708083 (10.142.25.198): No such file or directory: dynamic_natural_motion/utils/conversions.py
+[W 17:18:28.096 LabApp] No such file or directory: dynamic_natural_motion/utils/conversions.py
+[W 17:18:28.096 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/conversions.py?content=0&1547572708083 (10.142.25.198) 1.21ms referer=https://128.32.158.212:8898/lab
+[I 18:29:38.094 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 18:29:39.094 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[W 18:34:08.097 LabApp] WebSocket ping timeout after 119960 ms.
+[I 18:34:13.099 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:37ac1590-6e15-42e6-8eae-208f9e76c04c
+[I 18:47:40.737 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 18:47:40.738 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:37ac1590-6e15-42e6-8eae-208f9e76c04c
+[W 20:08:50.004 LabApp] SSL Error on 14 ('193.238.46.15', 59394): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1051)
+[W 20:08:50.301 LabApp] SSL Error on 14 ('193.238.46.15', 1055): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1051)
+[W 20:38:40.740 LabApp] WebSocket ping timeout after 111588 ms.
+[I 20:38:45.741 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:37ac1590-6e15-42e6-8eae-208f9e76c04c
+[W 00:11:46.724 LabApp] Could not determine jupyterlab build status without nodejs
+[W 00:11:46.985 LabApp] 404 GET /api/contents/dynamic_natural_motion?1547597506991 (10.142.144.61): No such file or directory: dynamic_natural_motion
+[W 00:11:46.986 LabApp] No such file or directory: dynamic_natural_motion
+[W 00:11:46.986 LabApp] 404 GET /api/contents/dynamic_natural_motion?1547597506991 (10.142.144.61) 0.95ms referer=https://128.32.158.212:8898/lab
+[W 00:11:46.992 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1547597506993 (10.142.144.61): No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 00:11:46.992 LabApp] No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 00:11:46.993 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1547597506993 (10.142.144.61) 1.23ms referer=https://128.32.158.212:8898/lab
+[W 00:11:46.994 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1547597506994 (10.142.144.61): No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 00:11:46.994 LabApp] No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 00:11:46.994 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1547597506994 (10.142.144.61) 1.18ms referer=https://128.32.158.212:8898/lab
+[W 00:11:46.996 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/load_data.py?content=0&1547597506996 (10.142.144.61): No such file or directory: dynamic_natural_motion/utils/load_data.py
+[W 00:11:46.996 LabApp] No such file or directory: dynamic_natural_motion/utils/load_data.py
+[W 00:11:46.997 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/load_data.py?content=0&1547597506996 (10.142.144.61) 1.19ms referer=https://128.32.158.212:8898/lab
+[W 00:11:46.998 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1547597506998 (10.142.144.61): No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 00:11:46.998 LabApp] No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 00:11:46.998 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1547597506998 (10.142.144.61) 1.19ms referer=https://128.32.158.212:8898/lab
+[W 00:11:46.999 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/conversions.py?content=0&1547597507000 (10.142.144.61): No such file or directory: dynamic_natural_motion/utils/conversions.py
+[W 00:11:47.000 LabApp] No such file or directory: dynamic_natural_motion/utils/conversions.py
+[W 00:11:47.000 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/conversions.py?content=0&1547597507000 (10.142.144.61) 1.14ms referer=https://128.32.158.212:8898/lab
+[W 19:25:02.356 LabApp] Could not determine jupyterlab build status without nodejs
+[W 19:25:02.606 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1547666702588 (169.229.119.6): No such file or directory: dynamic_natural_motion/utils
+[W 19:25:02.606 LabApp] No such file or directory: dynamic_natural_motion/utils
+[W 19:25:02.606 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1547666702588 (169.229.119.6) 0.73ms referer=https://128.32.158.212:8898/lab
+[W 19:25:02.607 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1547666702589 (169.229.119.6): No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 19:25:02.607 LabApp] No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 19:25:02.607 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1547666702589 (169.229.119.6) 0.68ms referer=https://128.32.158.212:8898/lab
+[W 19:25:02.609 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1547666702590 (169.229.119.6): No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 19:25:02.609 LabApp] No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 19:25:02.609 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1547666702590 (169.229.119.6) 0.97ms referer=https://128.32.158.212:8898/lab
+[W 20:27:54.532 LabApp] Could not determine jupyterlab build status without nodejs
+[W 07:12:44.760 LabApp] SSL Error on 11 ('5.23.48.148', 51498): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1051)
+[E 07:12:46.135 LabApp] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 709, in _handle_events
+        self._handle_read()
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 1581, in _handle_read
+        self._do_ssl_handshake()
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 1501, in _do_ssl_handshake
+        self.socket.do_handshake()
+      File "/home/vasha/anaconda3/lib/python3.7/ssl.py", line 1117, in do_handshake
+        self._sslobj.do_handshake()
+    OSError: [Errno 0] Error
+Exception in callback None()
+handle: <Handle cancelled>
+Traceback (most recent call last):
+  File "/home/vasha/anaconda3/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 709, in _handle_events
+    self._handle_read()
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 1581, in _handle_read
+    self._do_ssl_handshake()
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 1501, in _do_ssl_handshake
+    self.socket.do_handshake()
+  File "/home/vasha/anaconda3/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+[W 16:30:00.571 LabApp] Could not determine jupyterlab build status without nodejs
+[W 16:30:00.827 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1547742600817 (169.229.119.6): No such file or directory: dynamic_natural_motion/utils
+[W 16:30:00.827 LabApp] No such file or directory: dynamic_natural_motion/utils
+[W 16:30:00.828 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1547742600817 (169.229.119.6) 1.54ms referer=https://128.32.158.212:8898/lab
+[W 16:30:00.829 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1547742600818 (169.229.119.6): No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 16:30:00.829 LabApp] No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 16:30:00.830 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1547742600818 (169.229.119.6) 1.45ms referer=https://128.32.158.212:8898/lab
+[W 16:30:00.832 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1547742600819 (169.229.119.6): No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 16:30:00.832 LabApp] No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 16:30:00.832 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1547742600819 (169.229.119.6) 1.19ms referer=https://128.32.158.212:8898/lab
+[W 16:30:00.833 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1547742600821 (169.229.119.6): No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 16:30:00.833 LabApp] No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 16:30:00.833 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1547742600821 (169.229.119.6) 0.68ms referer=https://128.32.158.212:8898/lab
+[W 11:50:45.462 LabApp] SSL Error on 11 ('194.63.140.52', 1562): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1051)
+[W 00:28:07.823 LabApp] Could not determine jupyterlab build status without nodejs
+[W 00:28:08.090 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1547857688074 (10.142.27.145): No such file or directory: dynamic_natural_motion/utils
+[W 00:28:08.090 LabApp] No such file or directory: dynamic_natural_motion/utils
+[W 00:28:08.090 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1547857688074 (10.142.27.145) 1.50ms referer=https://128.32.158.212:8898/lab
+[W 00:28:08.092 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1547857688076 (10.142.27.145): No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 00:28:08.092 LabApp] No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 00:28:08.092 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1547857688076 (10.142.27.145) 1.44ms referer=https://128.32.158.212:8898/lab
+[W 00:28:08.095 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1547857688077 (10.142.27.145): No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 00:28:08.095 LabApp] No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 00:28:08.096 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1547857688077 (10.142.27.145) 1.47ms referer=https://128.32.158.212:8898/lab
+[W 00:28:08.097 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1547857688079 (10.142.27.145): No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 00:28:08.097 LabApp] No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 00:28:08.098 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1547857688079 (10.142.27.145) 1.42ms referer=https://128.32.158.212:8898/lab
+[I 00:28:13.082 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 00:28:17.682 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 00:30:13.892 LabApp] Saving file at /taec_torch.ipynb
+[I 00:32:14.935 LabApp] Saving file at /taec_torch.ipynb
+[I 00:34:15.753 LabApp] Saving file at /taec_torch.ipynb
+[I 00:36:16.847 LabApp] Saving file at /taec_torch.ipynb
+[I 00:38:17.791 LabApp] Saving file at /taec_torch.ipynb
+[I 00:40:18.990 LabApp] Saving file at /taec_torch.ipynb
+[I 00:42:19.752 LabApp] Saving file at /taec_torch.ipynb
+[I 00:44:19.872 LabApp] Saving file at /taec_torch.ipynb
+[I 00:46:20.825 LabApp] Saving file at /taec_torch.ipynb
+[I 00:48:22.049 LabApp] Saving file at /taec_torch.ipynb
+[I 00:50:22.727 LabApp] Saving file at /taec_torch.ipynb
+[I 00:52:22.904 LabApp] Saving file at /taec_torch.ipynb
+[I 00:54:23.888 LabApp] Saving file at /taec_torch.ipynb
+[I 00:56:24.600 LabApp] Saving file at /taec_torch.ipynb
+[I 00:58:25.911 LabApp] Saving file at /taec_torch.ipynb
+[I 01:00:26.768 LabApp] Saving file at /taec_torch.ipynb
+[I 01:02:27.995 LabApp] Saving file at /taec_torch.ipynb
+[I 01:04:28.785 LabApp] Saving file at /taec_torch.ipynb
+[I 01:06:28.920 LabApp] Saving file at /taec_torch.ipynb
+[I 01:08:29.847 LabApp] Saving file at /taec_torch.ipynb
+[I 01:10:31.152 LabApp] Saving file at /taec_torch.ipynb
+[I 01:12:31.717 LabApp] Saving file at /taec_torch.ipynb
+[I 01:14:31.984 LabApp] Saving file at /taec_torch.ipynb
+[I 01:16:32.853 LabApp] Saving file at /taec_torch.ipynb
+[I 01:18:34.075 LabApp] Saving file at /taec_torch.ipynb
+[I 01:20:34.812 LabApp] Saving file at /taec_torch.ipynb
+[I 01:22:34.957 LabApp] Saving file at /taec_torch.ipynb
+[I 01:24:36.088 LabApp] Saving file at /taec_torch.ipynb
+[I 01:26:36.761 LabApp] Saving file at /taec_torch.ipynb
+[I 01:28:36.907 LabApp] Saving file at /taec_torch.ipynb
+[I 01:30:37.932 LabApp] Saving file at /taec_torch.ipynb
+[I 01:32:39.053 LabApp] Saving file at /taec_torch.ipynb
+[I 01:34:39.809 LabApp] Saving file at /taec_torch.ipynb
+[W 01:38:13.084 LabApp] WebSocket ping timeout after 119923 ms.
+[I 01:38:18.088 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:d5e7f465-a4df-4d38-b11a-fa38c6380031
+[I 01:39:44.972 LabApp] Saving file at /taec_torch.ipynb
+[I 01:40:12.506 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 01:40:12.507 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:d5e7f465-a4df-4d38-b11a-fa38c6380031
+[I 01:40:12.507 LabApp] Replaying 2 buffered messages
+[I 01:41:45.366 LabApp] Saving file at /taec_torch.ipynb
+[W 01:44:42.511 LabApp] WebSocket ping timeout after 111241 ms.
+[I 01:44:47.514 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:d5e7f465-a4df-4d38-b11a-fa38c6380031
+[I 01:46:05.413 LabApp] Saving file at /taec_torch.ipynb
+[I 01:46:09.084 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 01:46:09.085 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:d5e7f465-a4df-4d38-b11a-fa38c6380031
+[I 01:46:09.085 LabApp] Replaying 2 buffered messages
+[W 01:49:09.088 LabApp] WebSocket ping timeout after 119976 ms.
+[I 01:49:14.091 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:d5e7f465-a4df-4d38-b11a-fa38c6380031
+[I 01:51:57.445 LabApp] Saving file at /taec_torch.ipynb
+[I 18:32:32.150 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 18:32:32.151 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:d5e7f465-a4df-4d38-b11a-fa38c6380031
+[I 18:32:32.151 LabApp] Replaying 966 buffered messages
+[I 18:32:37.328 LabApp] Saving file at /taec_torch.ipynb
+[W 18:50:32.153 LabApp] WebSocket ping timeout after 119994 ms.
+[I 18:50:37.154 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:d5e7f465-a4df-4d38-b11a-fa38c6380031
+[I 19:11:37.416 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 19:11:37.417 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:d5e7f465-a4df-4d38-b11a-fa38c6380031
+[W 19:16:07.418 LabApp] WebSocket ping timeout after 119982 ms.
+[I 19:16:12.423 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:d5e7f465-a4df-4d38-b11a-fa38c6380031
+[I 22:36:48.593 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 22:36:48.594 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:d5e7f465-a4df-4d38-b11a-fa38c6380031
+[W 23:08:48.594 LabApp] WebSocket ping timeout after 119993 ms.
+[I 23:08:53.598 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:d5e7f465-a4df-4d38-b11a-fa38c6380031
+[W 23:47:08.064 LabApp] Could not determine jupyterlab build status without nodejs
+[W 23:47:08.338 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1547941628333 (169.229.119.6): No such file or directory: dynamic_natural_motion/utils
+[W 23:47:08.339 LabApp] No such file or directory: dynamic_natural_motion/utils
+[W 23:47:08.339 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1547941628333 (169.229.119.6) 0.74ms referer=https://128.32.158.212:8898/lab
+[W 23:47:08.340 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1547941628334 (169.229.119.6): No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 23:47:08.340 LabApp] No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 23:47:08.341 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1547941628334 (169.229.119.6) 0.72ms referer=https://128.32.158.212:8898/lab
+[W 23:47:08.342 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1547941628335 (169.229.119.6): No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 23:47:08.342 LabApp] No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 23:47:08.342 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1547941628335 (169.229.119.6) 0.69ms referer=https://128.32.158.212:8898/lab
+[W 23:47:08.343 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1547941628337 (169.229.119.6): No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 23:47:08.343 LabApp] No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 23:47:08.343 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1547941628337 (169.229.119.6) 0.69ms referer=https://128.32.158.212:8898/lab
+[I 23:47:16.909 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 23:47:17.793 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 23:47:57.205 LabApp] Saving file at /taec_torch.ipynb
+[I 23:47:59.768 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:146f37ed-c5e3-48a3-83d6-597975a3605f
+[I 23:48:02.582 LabApp] Kernel restarted: e591dd46-7476-4165-85c6-7cda047a2b96
+[I 23:48:03.006 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 23:48:03.008 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:146f37ed-c5e3-48a3-83d6-597975a3605f
+[I 23:48:03.008 LabApp] Replaying 5 buffered messages
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch-nightly_1545902709955/work/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch-nightly_1545902709955/work/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 23:49:58.028 LabApp] Saving file at /taec_torch.ipynb
+[I 23:51:59.238 LabApp] Saving file at /taec_torch.ipynb
+[I 23:54:00.211 LabApp] Saving file at /taec_torch.ipynb
+[I 23:56:01.118 LabApp] Saving file at /taec_torch.ipynb
+[I 23:58:02.237 LabApp] Saving file at /taec_torch.ipynb
+[I 00:00:03.248 LabApp] Saving file at /taec_torch.ipynb
+[I 00:02:04.192 LabApp] Saving file at /taec_torch.ipynb
+[I 00:04:05.233 LabApp] Saving file at /taec_torch.ipynb
+[I 00:06:06.274 LabApp] Saving file at /taec_torch.ipynb
+[I 00:08:07.154 LabApp] Saving file at /taec_torch.ipynb
+[I 00:10:08.049 LabApp] Saving file at /taec_torch.ipynb
+[I 00:12:09.359 LabApp] Saving file at /taec_torch.ipynb
+[I 00:14:10.210 LabApp] Saving file at /taec_torch.ipynb
+[I 00:16:11.263 LabApp] Saving file at /taec_torch.ipynb
+[I 00:18:12.233 LabApp] Saving file at /taec_torch.ipynb
+[I 00:20:13.180 LabApp] Saving file at /taec_torch.ipynb
+[I 00:22:14.262 LabApp] Saving file at /taec_torch.ipynb
+[I 00:24:15.249 LabApp] Saving file at /taec_torch.ipynb
+[I 00:26:15.374 LabApp] Saving file at /taec_torch.ipynb
+[I 00:28:16.205 LabApp] Saving file at /taec_torch.ipynb
+[I 00:30:16.393 LabApp] Saving file at /taec_torch.ipynb
+[I 00:32:16.998 LabApp] Saving file at /taec_torch.ipynb
+[I 00:34:17.285 LabApp] Saving file at /taec_torch.ipynb
+[I 00:36:18.059 LabApp] Saving file at /taec_torch.ipynb
+[I 00:38:19.007 LabApp] Saving file at /taec_torch.ipynb
+[I 00:40:19.417 LabApp] Saving file at /taec_torch.ipynb
+[I 00:42:20.259 LabApp] Saving file at /taec_torch.ipynb
+[I 00:44:21.205 LabApp] Saving file at /taec_torch.ipynb
+[I 00:46:22.215 LabApp] Saving file at /taec_torch.ipynb
+[I 00:48:23.232 LabApp] Saving file at /taec_torch.ipynb
+[I 00:50:24.360 LabApp] Saving file at /taec_torch.ipynb
+[I 00:52:25.269 LabApp] Saving file at /taec_torch.ipynb
+[I 00:54:26.303 LabApp] Saving file at /taec_torch.ipynb
+[I 00:56:27.379 LabApp] Saving file at /taec_torch.ipynb
+[I 00:58:28.158 LabApp] Saving file at /taec_torch.ipynb
+[I 01:00:29.310 LabApp] Saving file at /taec_torch.ipynb
+[I 01:02:30.268 LabApp] Saving file at /taec_torch.ipynb
+[I 01:04:31.260 LabApp] Saving file at /taec_torch.ipynb
+[I 01:06:32.338 LabApp] Saving file at /taec_torch.ipynb
+[I 01:08:33.315 LabApp] Saving file at /taec_torch.ipynb
+[I 01:10:34.390 LabApp] Saving file at /taec_torch.ipynb
+[I 01:12:35.287 LabApp] Saving file at /taec_torch.ipynb
+[I 01:14:36.233 LabApp] Saving file at /taec_torch.ipynb
+[I 01:16:37.444 LabApp] Saving file at /taec_torch.ipynb
+[I 01:18:38.145 LabApp] Saving file at /taec_torch.ipynb
+[I 01:20:39.443 LabApp] Saving file at /taec_torch.ipynb
+[I 01:22:40.103 LabApp] Saving file at /taec_torch.ipynb
+[I 01:24:41.335 LabApp] Saving file at /taec_torch.ipynb
+[I 01:26:42.396 LabApp] Saving file at /taec_torch.ipynb
+[I 01:28:43.314 LabApp] Saving file at /taec_torch.ipynb
+[I 01:30:44.330 LabApp] Saving file at /taec_torch.ipynb
+[I 01:32:45.389 LabApp] Saving file at /taec_torch.ipynb
+[I 01:34:46.343 LabApp] Saving file at /taec_torch.ipynb
+[I 01:36:47.353 LabApp] Saving file at /taec_torch.ipynb
+[I 01:38:48.179 LabApp] Saving file at /taec_torch.ipynb
+[I 01:40:49.493 LabApp] Saving file at /taec_torch.ipynb
+[W 01:43:33.009 LabApp] WebSocket ping timeout after 119894 ms.
+[I 01:43:38.013 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:146f37ed-c5e3-48a3-83d6-597975a3605f
+[W 14:57:59.299 LabApp] SSL Error on 11 ('193.238.46.15', 10995): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1051)
+[W 14:57:59.588 LabApp] SSL Error on 11 ('193.238.46.15', 11326): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1051)
+[I 16:44:54.722 LabApp] Saving file at /taec_torch.ipynb
+[E 16:45:06.114 LabApp] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 709, in _handle_events
+        self._handle_read()
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 1581, in _handle_read
+        self._do_ssl_handshake()
+      File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 1501, in _do_ssl_handshake
+        self.socket.do_handshake()
+      File "/home/vasha/anaconda3/lib/python3.7/ssl.py", line 1117, in do_handshake
+        self._sslobj.do_handshake()
+    OSError: [Errno 0] Error
+Exception in callback None()
+handle: <Handle cancelled>
+Traceback (most recent call last):
+  File "/home/vasha/anaconda3/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 709, in _handle_events
+    self._handle_read()
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 1581, in _handle_read
+    self._do_ssl_handshake()
+  File "/home/vasha/anaconda3/lib/python3.7/site-packages/tornado/iostream.py", line 1501, in _do_ssl_handshake
+    self.socket.do_handshake()
+  File "/home/vasha/anaconda3/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+[I 20:33:10.139 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 20:33:10.140 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:146f37ed-c5e3-48a3-83d6-597975a3605f
+[I 20:33:10.140 LabApp] Replaying 938 buffered messages
+[I 20:33:37.341 LabApp] Saving file at /taec_torch.ipynb
+[W 20:45:10.142 LabApp] WebSocket ping timeout after 119993 ms.
+[I 20:45:15.144 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:146f37ed-c5e3-48a3-83d6-597975a3605f
+[I 00:23:13.589 LabApp] Kernel restarted: e591dd46-7476-4165-85c6-7cda047a2b96
+[I 00:23:13.870 LabApp] Saving file at /taec_torch.ipynb
+[I 00:23:14.078 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 00:23:14.079 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:146f37ed-c5e3-48a3-83d6-597975a3605f
+[I 00:23:14.079 LabApp] Replaying 5 buffered messages
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch-nightly_1545902709955/work/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch-nightly_1545902709955/work/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 00:25:14.263 LabApp] Saving file at /taec_torch.ipynb
+[I 00:27:14.447 LabApp] Saving file at /taec_torch.ipynb
+[I 00:29:15.250 LabApp] Saving file at /taec_torch.ipynb
+[I 00:31:16.492 LabApp] Saving file at /taec_torch.ipynb
+[I 00:33:17.350 LabApp] Saving file at /taec_torch.ipynb
+[I 00:35:17.473 LabApp] Saving file at /taec_torch.ipynb
+[I 00:37:18.524 LabApp] Saving file at /taec_torch.ipynb
+[I 00:39:19.428 LabApp] Saving file at /taec_torch.ipynb
+[I 00:41:20.432 LabApp] Saving file at /taec_torch.ipynb
+[I 00:43:21.554 LabApp] Saving file at /taec_torch.ipynb
+[I 00:45:22.327 LabApp] Saving file at /taec_torch.ipynb
+[I 00:47:23.300 LabApp] Saving file at /taec_torch.ipynb
+[I 00:49:24.647 LabApp] Saving file at /taec_torch.ipynb
+[I 00:51:25.494 LabApp] Saving file at /taec_torch.ipynb
+[I 00:53:26.319 LabApp] Saving file at /taec_torch.ipynb
+[I 00:55:27.548 LabApp] Saving file at /taec_torch.ipynb
+[I 00:57:27.667 LabApp] Saving file at /taec_torch.ipynb
+[I 00:59:28.491 LabApp] Saving file at /taec_torch.ipynb
+[I 01:01:29.328 LabApp] Saving file at /taec_torch.ipynb
+[I 01:03:30.581 LabApp] Saving file at /taec_torch.ipynb
+[W 01:05:44.080 LabApp] WebSocket ping timeout after 119886 ms.
+[I 01:05:49.084 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:146f37ed-c5e3-48a3-83d6-597975a3605f
+[I 01:34:24.337 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 01:34:24.338 LabApp] Restoring connection for e591dd46-7476-4165-85c6-7cda047a2b96:146f37ed-c5e3-48a3-83d6-597975a3605f
+[I 01:34:24.338 LabApp] Replaying 38 buffered messages
+[I 01:37:24.357 LabApp] Saving file at /taec_torch.ipynb
+[I 01:39:25.209 LabApp] Saving file at /taec_torch.ipynb
+[I 01:41:26.478 LabApp] Saving file at /taec_torch.ipynb
+[I 01:43:27.366 LabApp] Saving file at /taec_torch.ipynb
+[I 01:45:28.170 LabApp] Saving file at /taec_torch.ipynb
+[I 01:47:29.408 LabApp] Saving file at /taec_torch.ipynb
+[I 01:49:30.403 LabApp] Saving file at /taec_torch.ipynb
+[I 01:51:31.270 LabApp] Saving file at /taec_torch.ipynb
+[I 01:53:32.460 LabApp] Saving file at /taec_torch.ipynb
+[I 01:55:33.339 LabApp] Saving file at /taec_torch.ipynb
+[I 01:57:34.154 LabApp] Saving file at /taec_torch.ipynb
+[I 01:59:35.159 LabApp] Saving file at /taec_torch.ipynb
+[I 02:01:36.387 LabApp] Saving file at /taec_torch.ipynb
+[I 02:03:37.224 LabApp] Saving file at /taec_torch.ipynb
+[I 02:05:38.465 LabApp] Saving file at /taec_torch.ipynb
+[I 02:07:39.429 LabApp] Saving file at /taec_torch.ipynb
+[I 02:09:40.162 LabApp] Saving file at /taec_torch.ipynb
+[I 02:11:41.559 LabApp] Saving file at /taec_torch.ipynb
+[I 02:13:42.351 LabApp] Saving file at /taec_torch.ipynb
+[I 02:15:42.446 LabApp] Saving file at /taec_torch.ipynb
+[I 02:17:43.188 LabApp] Saving file at /taec_torch.ipynb
+[I 02:19:44.531 LabApp] Saving file at /taec_torch.ipynb
+[I 02:21:45.244 LabApp] Saving file at /taec_torch.ipynb
+[I 02:23:46.224 LabApp] Saving file at /taec_torch.ipynb
+[I 02:25:47.522 LabApp] Saving file at /taec_torch.ipynb
+[I 02:27:48.443 LabApp] Saving file at /taec_torch.ipynb
+[I 02:29:49.317 LabApp] Saving file at /taec_torch.ipynb
+[I 02:31:50.541 LabApp] Saving file at /taec_torch.ipynb
+[I 02:33:51.403 LabApp] Saving file at /taec_torch.ipynb
+[W 02:35:54.340 LabApp] WebSocket ping timeout after 119941 ms.
+[I 02:35:59.342 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:146f37ed-c5e3-48a3-83d6-597975a3605f
+[W 06:05:47.573 LabApp] Could not determine jupyterlab build status without nodejs
+[W 06:05:47.854 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1548050747848 (169.229.119.6): No such file or directory: dynamic_natural_motion/utils
+[W 06:05:47.854 LabApp] No such file or directory: dynamic_natural_motion/utils
+[W 06:05:47.855 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1548050747848 (169.229.119.6) 0.87ms referer=https://128.32.158.212:8898/lab
+[W 06:05:47.856 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1548050747850 (169.229.119.6): No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 06:05:47.856 LabApp] No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 06:05:47.856 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1548050747850 (169.229.119.6) 0.78ms referer=https://128.32.158.212:8898/lab
+[W 06:05:47.858 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1548050747850 (169.229.119.6): No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 06:05:47.858 LabApp] No such file or directory: dynamic_natural_motion/utils/plotting.py
+[W 06:05:47.859 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/plotting.py?content=0&1548050747850 (169.229.119.6) 0.83ms referer=https://128.32.158.212:8898/lab
+[W 06:05:47.860 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/load_data.py?content=0&1548050747852 (169.229.119.6): No such file or directory: dynamic_natural_motion/utils/load_data.py
+[W 06:05:47.860 LabApp] No such file or directory: dynamic_natural_motion/utils/load_data.py
+[W 06:05:47.860 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/load_data.py?content=0&1548050747852 (169.229.119.6) 0.92ms referer=https://128.32.158.212:8898/lab
+[W 06:05:47.863 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1548050747854 (169.229.119.6): No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 06:05:47.863 LabApp] No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 06:05:47.863 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1548050747854 (169.229.119.6) 0.94ms referer=https://128.32.158.212:8898/lab
+[W 06:05:47.866 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/conversions.py?content=0&1548050747856 (169.229.119.6): No such file or directory: dynamic_natural_motion/utils/conversions.py
+[W 06:05:47.866 LabApp] No such file or directory: dynamic_natural_motion/utils/conversions.py
+[W 06:05:47.867 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/conversions.py?content=0&1548050747856 (169.229.119.6) 0.95ms referer=https://128.32.158.212:8898/lab
+[I 06:05:50.722 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 06:05:50.723 LabApp] Discarding 281 buffered messages for e591dd46-7476-4165-85c6-7cda047a2b96:146f37ed-c5e3-48a3-83d6-597975a3605f
+[W 06:42:20.725 LabApp] WebSocket ping timeout after 119918 ms.
+[I 06:42:25.728 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:44e21012-4588-46e9-a141-67d5e77270ef
+[I 16:14:23.015 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 16:14:23.016 LabApp] Discarding 558 buffered messages for e591dd46-7476-4165-85c6-7cda047a2b96:44e21012-4588-46e9-a141-67d5e77270ef
+[I 16:14:23.077 LabApp] Starting buffering for e591dd46-7476-4165-85c6-7cda047a2b96:ed35fe9f-7fc8-45a6-acb5-73314494b89b
+[W 16:14:28.565 LabApp] Could not determine jupyterlab build status without nodejs
+[W 16:14:28.837 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1548087268830 (10.142.27.12): No such file or directory: dynamic_natural_motion/utils
+[W 16:14:28.837 LabApp] No such file or directory: dynamic_natural_motion/utils
+[W 16:14:28.837 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils?1548087268830 (10.142.27.12) 0.64ms referer=https://128.32.158.212:8898/lab
+[W 16:14:28.838 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1548087268832 (10.142.27.12): No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 16:14:28.839 LabApp] No such file or directory: dynamic_natural_motion/Analysis.ipynb
+[W 16:14:28.839 LabApp] 404 GET /api/contents/dynamic_natural_motion/Analysis.ipynb?content=0&1548087268832 (10.142.27.12) 0.95ms referer=https://128.32.158.212:8898/lab
+[W 16:14:28.841 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/load_data.py?content=0&1548087268832 (10.142.27.12): No such file or directory: dynamic_natural_motion/utils/load_data.py
+[W 16:14:28.841 LabApp] No such file or directory: dynamic_natural_motion/utils/load_data.py
+[W 16:14:28.841 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/load_data.py?content=0&1548087268832 (10.142.27.12) 0.97ms referer=https://128.32.158.212:8898/lab
+[W 16:14:28.843 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1548087268835 (10.142.27.12): No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 16:14:28.843 LabApp] No such file or directory: dynamic_natural_motion/utils/hmet_trial.py
+[W 16:14:28.843 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/hmet_trial.py?content=0&1548087268835 (10.142.27.12) 0.95ms referer=https://128.32.158.212:8898/lab
+[W 16:14:28.856 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/conversions.py?content=0&1548087268837 (10.142.27.12): No such file or directory: dynamic_natural_motion/utils/conversions.py
+[W 16:14:28.856 LabApp] No such file or directory: dynamic_natural_motion/utils/conversions.py
+[W 16:14:28.856 LabApp] 404 GET /api/contents/dynamic_natural_motion/utils/conversions.py?content=0&1548087268837 (10.142.27.12) 1.01ms referer=https://128.32.158.212:8898/lab
+[I 16:14:31.803 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 16:14:38.252 LabApp] Adapting to protocol v5.1 for kernel e591dd46-7476-4165-85c6-7cda047a2b96
+[I 16:14:59.392 LabApp] Kernel interrupted: e591dd46-7476-4165-85c6-7cda047a2b96
+[C 16:15:20.534 LabApp] received signal 15, stopping
+[I 16:15:20.535 LabApp] Shutting down 1 kernel
+[I 16:15:22.640 LabApp] Kernel shutdown: e591dd46-7476-4165-85c6-7cda047a2b96
